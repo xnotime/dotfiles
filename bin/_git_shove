@@ -2,5 +2,4 @@
 
 git add $(git rev-parse --show-toplevel) --all
 git commit -m "$1"
-git grab
-git push
+git grab && git push
