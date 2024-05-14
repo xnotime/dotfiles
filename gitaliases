@@ -1,2 +1,3 @@
 [alias]
-	shove = !git add $(git rev-parse --show-toplevel) --all && git commit -m $1 && git push
+	shove = !gitshove
+	grab = !git fetch && git pull --ff-only
