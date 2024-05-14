@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gh auth switch -u "$1"
+git config --global user.name "$1"
+git config --global user.email $(cat ~/.ghemails/$1)
