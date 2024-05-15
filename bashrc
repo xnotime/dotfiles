@@ -26,6 +26,6 @@ unset rc
 
 # (End of original content)
 
-PS1='\u$ '
+PS1='\e[1m\e[36m[\u@\h \e[34m\W\e[36m] \e[0m$ '
 
 # (End of manually added content)
