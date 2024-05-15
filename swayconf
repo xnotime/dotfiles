@@ -43,6 +43,9 @@ output * scale 1.5
 
 exec_always /home/landon/dotfiles/swayrc
 
+# Gaps!
+gaps inner 10
+
 ### Idle configuration
 #
 # Example configuration:
