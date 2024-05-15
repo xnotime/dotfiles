@@ -1,6 +1,6 @@
 [alias]
 	shove = !_git_shove
-	grab = !git fetch && git pull --ff-only
+	snag = !git fetch && git pull --ff-only
 	wrongmsg = commit --amend -m
 	wrongme = commit --amend --reset-author --no-edit
-
+	wrongfiles = !_git_wrongfiles

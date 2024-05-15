@@ -1,5 +1,4 @@
 #!/bin/bash
 
 git add $(git rev-parse --show-toplevel) --all
-git commit -m "$1"
-git snag && git push
+git commit --amend --no-edit
