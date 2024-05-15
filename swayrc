@@ -1,4 +1,4 @@
 #!/bin/bash
 
-touch $HOME/swayrcran.txt
-mpvpaper -o "no-audio loop" '*' $HOME/dotfiles/bg.gif
+pkill swaybg mpvpaper
+mpvpaper -o "no-audio loop pan-scan=1.0" '*' $HOME/dotfiles/bg.gif
