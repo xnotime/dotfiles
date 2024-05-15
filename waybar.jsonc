@@ -24,9 +24,9 @@
         //"backlight",
         //"sway/language",
         "network",
-        "battery",
         "clock",
-        "tray"
+        "tray",
+        "battery"
     ],
     // Modules configuration
     // "sway/workspaces": {

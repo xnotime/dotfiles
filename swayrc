@@ -2,4 +2,4 @@
 
 pkill swaybg
 pkill mpvpaper
-mpvpaper -o "no-audio loop pan-scan=1.0" '*' $HOME/dotfiles/bg.gif
+mpvpaper -f -o "no-audio loop panscan=1.0" '*' $HOME/dotfiles/bg.gif
