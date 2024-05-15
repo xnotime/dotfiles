@@ -1,0 +1,4 @@
+#!/bin/bash
+
+touch $HOME/swayrcran.txt
+mpvpaper -o "no-audio loop" '*' $HOME/dotfiles/bg.gif
