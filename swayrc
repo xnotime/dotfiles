@@ -1,4 +1,5 @@
 #!/bin/bash
 
-pkill swaybg mpvpaper
+pkill swaybg
+pkill mpvpaper
 mpvpaper -o "no-audio loop pan-scan=1.0" '*' $HOME/dotfiles/bg.gif
