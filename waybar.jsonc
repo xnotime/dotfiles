@@ -17,7 +17,6 @@
     "modules-right": [
         "idle_inhibitor",
         "pulseaudio",
-        "power-profiles-daemon",
         "cpu",
         //"memory",
         "temperature",
@@ -25,6 +24,7 @@
         //"sway/language",
         "network",
         "clock",
+        "power-profiles-daemon",
         "tray",
         "battery"
     ],
