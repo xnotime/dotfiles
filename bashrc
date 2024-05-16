@@ -28,4 +28,7 @@ unset rc
 
 PS1='\e[1m\e[36m[\u@\h \e[34m\W\e[36m] \e[0m$ '
 
+export PATH="$PATH:$HOME/.inst/persway/target/release"
+
 # (End of manually added content)
+. "$HOME/.cargo/env"
