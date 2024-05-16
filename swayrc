@@ -4,4 +4,4 @@ pkill swaybg
 pkill mpvpaper
 pkill persway
 mpvpaper -f -o "no-audio loop panscan=1.0" '*' $HOME/dotfiles/bg.gif
-persway daemon -w -e '[tiling] opacity 1' -f '[tiling] opacity 0.85; opacity 1' -l 'mark --add _prev' -d spiral &
+persway daemon -e '[tiling] opacity 1' -f '[tiling] opacity 0.85; opacity 1' -l 'mark --add _prev' -d spiral &
