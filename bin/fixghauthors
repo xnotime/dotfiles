@@ -1,0 +1,10 @@
+#!/bin/bash
+
+gh repo clone $1
+cd $1
+git -c rebase.instructionFormat='%s%nexec GIT_COMMITTER_DATE="%cD" GIT_AUTHOR_DATE="%aD" git commit --amend --no-edit --reset-author' rebase -f --root
+git log | head -n 10
+git push --force
+cd ..
+rm -rf $1
+echo '[fixghauthors]' "Fixed $1."
