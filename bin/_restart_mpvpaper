@@ -1,0 +1,5 @@
+#!/bin/bash
+
+OLD_MPVPAPER_PID=$(cat ~/.mpvpaper.pid)
+_mpvpaper
+kill $OLD_MPVPAPER_PID
