@@ -1,7 +1,8 @@
 #!/bin/bash
 
 pkill swaybg
-pkill mpvpaper
+pkill swww-daemon
 pkill persway
-_mpvpaper
+swww-daemon --format xrgb &
+swww img $HOME/dotfiles/bg.gif
 persway daemon -e '[tiling] opacity 1' -f '[tiling] opacity 0.85; opacity 1' -l 'mark --add _prev' -d spiral &
