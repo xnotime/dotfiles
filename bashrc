@@ -32,4 +32,5 @@ export PATH="$PATH:$HOME/.inst/persway/target/release"
 export PATH="$PATH:$HOME/.inst/swww/target/release"
 
 # (End of manually added content)
+
 . "$HOME/.cargo/env"
