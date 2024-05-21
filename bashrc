@@ -30,6 +30,8 @@ PS1='\e[1m\e[36m[\u \e[34m\W\e[36m]\e[0m$ '
 
 export PATH="$PATH:$HOME/.inst/persway/target/release"
 export PATH="$PATH:$HOME/.inst/swww/target/release"
+export PATH="$PATH:$HOME/.inst/zig/build/stage3/bin"
+export PATH="$PATH:$HOME/.inst/zls/zig-out/bin"
 
 # (End of manually added content)
 
