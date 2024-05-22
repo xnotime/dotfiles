@@ -4,3 +4,5 @@
 	wrongmsg = commit --amend -m
 	wrongme = commit --amend --reset-author --no-edit
 	wrongfiles = !_git_wrongfiles
+	su = !_git_su
+	delorean = !_git_delorean
