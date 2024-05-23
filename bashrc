@@ -36,3 +36,18 @@ export PATH="$PATH:$HOME/.inst/zls/zig-out/bin"
 # (End of manually added content)
 
 . "$HOME/.cargo/env"
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+case ":$PATH:" in
+    *:/home/landon/.juliaup/bin:*)
+        ;;
+
+    *)
+        export PATH=/home/landon/.juliaup/bin${PATH:+:${PATH}}
+        ;;
+esac
+
+# <<< juliaup initialize <<<
