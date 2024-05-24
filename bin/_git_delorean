@@ -1,3 +1,4 @@
 #!/bin/bash
 
+echo "Going past 88mph..."
 git -c rebase.instructionFormat="%s%nexec GIT_COMMITTER_DATE=\"%cD\" GIT_AUTHOR_DATE=\"%aD\" git $1" rebase -f --root
