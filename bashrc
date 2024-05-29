@@ -32,6 +32,7 @@ export PATH="$PATH:$HOME/.inst/persway/target/release"
 export PATH="$PATH:$HOME/.inst/swww/target/release"
 export PATH="$PATH:$HOME/.inst/zig/build/stage3/bin"
 export PATH="$PATH:$HOME/.inst/zls/zig-out/bin"
+export PATH="$PATH:$HOME/.inst/marksman/_built"
 
 # (End of manually added content)
 
@@ -51,3 +52,11 @@ case ":$PATH:" in
 esac
 
 # <<< juliaup initialize <<<
+
+# pnpm
+export PNPM_HOME="/home/landon/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
