@@ -33,6 +33,7 @@ export PATH="$PATH:$HOME/.inst/swww/target/release"
 export PATH="$PATH:$HOME/.inst/zig/build/stage3/bin"
 export PATH="$PATH:$HOME/.inst/zls/zig-out/bin"
 export PATH="$PATH:$HOME/.inst/marksman/_built"
+export PATH="$PATH:$HOME/.inst/arduino"
 
 # (End of manually added content)
 

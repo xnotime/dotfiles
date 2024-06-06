@@ -5,4 +5,5 @@
 	wrongme = commit --amend --reset-author --no-edit
 	wrongfiles = !_git_wrongfiles
 	su = !_git_su
+	whoami = !_git_whoami
 	delorean = !_git_delorean
