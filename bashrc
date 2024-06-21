@@ -34,6 +34,9 @@ export PATH="$PATH:$HOME/.inst/zig/build/stage3/bin"
 export PATH="$PATH:$HOME/.inst/zls/zig-out/bin"
 export PATH="$PATH:$HOME/.inst/marksman/_built"
 export PATH="$PATH:$HOME/.inst/arduino"
+export PATH="$PATH:$HOME/.inst/_appimages"
+
+alias sc="swaymsg workspace Code && exit"
 
 # (End of manually added content)
 
