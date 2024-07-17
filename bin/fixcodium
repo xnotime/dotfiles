@@ -2,3 +2,5 @@
 
 cp /usr/share/applications/codium.desktop ~/.codium.desktop.as-of-$(date | base64).backup
 sudo sed -i "s/codium %F/codium %F --enable-ozone --ozone-platform=wayland/g" /usr/share/applications/codium.desktop
+sudo chown -R $(whoami) /usr/share/codium/resources/app/out/vs/workbench
+
