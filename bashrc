@@ -37,9 +37,11 @@ export PATH="$PATH:$HOME/.inst/xfemm/cfemm/bin"
 export PATH="$PATH:$HOME/.inst/arduino"
 export PATH="$PATH:$HOME/.inst/crystalline"
 export PATH="$PATH:$HOME/.inst/mc/minecraft-launcher"
+export PATH="$PATH:$HOME/.inst/luanti"
 export PATH="$PATH:$HOME/.inst/websocat"
 export PATH="$PATH:$HOME/.inst/bambu"
 export PATH="$PATH:$HOME/.inst/_appimages"
+export PATH="$PATH:$HOME/.inst/resolve"
 
 alias sc="swaymsg workspace Code && exit"
 
